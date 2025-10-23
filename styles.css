@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(255,50,50);
+  background-image: linear-gradient(to bottom, rgb(200,200,200), rgb(230,230,230));
+  color: black;
+  text-align: left;
+  font-family: cambria;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+h1 {
+  margin: 0px;
+  color: white;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-family: cambria, arial;
+}
+h3 {
+  margin: 0px;
+  margin-left: 20px;
+  color:white;
+  font-family: cambria, arial;
+}
+p {
+  margin: 20px;
+  line-height: 1.2;
+  text-align: left;
+}
+center {
+  margin: auto;
+  width: 50%;
+}
+
+video {
+ margin-left: 1em;
+}
+
+
+div.main {
+  background-color: rgb(250,250,250);
+  width: 50%;
+  height: 100%;
+  padding-top: 0px;
+  padding-bottom: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+}
+div.mainHeader {
+  background-color: rgb(255,50,50);
+  background-image: linear-gradient(to bottom, rgb(255,50,50), rgb(200,25,25));
+  margin: 0px;
+  padding: 1em;
+}
+div.container {
+  background-color: rgb(255,50,50);
+  background-image: linear-gradient(to bottom, rgb(255,50,50), rgb(150,25,25));
+  padding: 2em;
+  margin: 1em;
+}
+
+.topnav ul {
+  margin: 0px;
+  list-style-type: none;
+  background-color: rgb(255,50,50);
+  background-image: linear-gradient(to bottom, rgb(255,50,50), rgb(200,25,25));
+  overflow: hidden;
+}
+.topnav li {
+  float: left;
+  background-image: radial-gradient(ellipse farthest-side at 50% 200%, rgba(125,25,25,0.7),rgba(200,25,25,0));
+}
+.topnav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+.topnav a:hover {
+  text-decoration: underline;
+}
