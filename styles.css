@@ -61,6 +61,18 @@ div.container {
   margin: 1em;
 }
 
+.container p {
+  color: white;
+}
+.container li{
+  color:white;
+}
+.imgProfile {
+  float: left;
+  width: 20%;
+  margin-right: 2em;
+}
+
 .topnav ul {
   margin: 0px;
   list-style-type: none;
